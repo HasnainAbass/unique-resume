@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editable Dynamic Resume Builder</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.min.js"></script>
+</head>
+<body>
+    <div class="form-container">
+        <h3>Resume Builder Form</h3>
+        <form id="resume-form">
+
+            <fieldset>
+                <legend>Personal Information</legend>
+                   Full Name:
+                  <input type="text" id="name" name="name" size="15px" maxlength="30px" placeholder="Enter name" >
+                  <br/>
+                  profile-picture URL:
+                  <input type="file" id="profile-picture" name="profile-picture" accept="image/*" required >
+                  <br/>
+                   Contect Number:
+                   <input type="number" id="contact" name="number" size="15px" maxlength="13px" placeholder="+92 Number" >
+                   <br/>
+                   Location:
+                   <input type="text" id="location" name="location" size="15px" maxlength="30px" placeholder="location" >
+                   E-mail: 
+                   <input type="email" id="email" name="email" size="15px" maxlength="50px" placeholder="E-mail" >
+                   facebook link:
+                   <input type="text" id="facebook" name="facebook" size="15px" maxlength="50px" placeholder="facebook link" >
+                   <br/>
+                   your twitter account:
+                   <input type="text" id="twitter" name="twitter" size="15px" maxlength="50px" placeholder="twitter link" >
+            </fieldset>
+    
+            <fieldset>
+                <legend>Education</legend>
+                <input type="text" id="education" name="education" >
+            </fieldset>
+
+            <fieldset>
+                <legend>Skills</legend>
+                <input type="text" id="skills" name="skills" >
+            </fieldset>
+
+            <fieldset>
+                <legend>Work Experience</legend>
+                <input type="text" id="work-experience" name="work-experience" >
+            </fieldset>
+
+            <button type="submit">Click to Generate Resume</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

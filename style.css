@@ -1,0 +1,91 @@
+body{
+    background-image:url("https://images.pexels.com/photos/27768680/pexels-photo-27768680/free-photo-of-an-aerial-view-of-the-ocean-with-blue-water.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load") ;
+    background-size:cover;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container{
+    max-width: 800px;
+    background-color: #b6da7c;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow:0 0  10px  rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 8px;
+    margin-top: 5px;
+}
+
+#inner-div{
+    background-image: url("https://images.pexels.com/photos/27759067/pexels-photo-27759067/free-photo-of-extreme-close-up-of-a-plant.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load");
+    background-size:cover;
+    height:100%vph;
+    width: 700px;
+    padding:20px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.Personal-info{
+    display: flex;
+    justify-content:space-evenly;
+}
+.Information-box a{
+    text-decoration: none;
+}
+h1{
+    color: rgb(9, 126, 1);
+    font-size: 3rem;
+    box-shadow: 20px 15px 15px rgb(121, 235, 69);
+}
+h2{
+    color: rgb(112, 2, 2);
+    box-shadow: 0px 0px rgb(231, 223, 223), -.5em 0 .4em rgb(9, 126, 1);
+}
+
+section {
+    margin-bottom: 20px;
+}
+.education, .skills, .work-experience{
+background-color: rgb(212, 236, 228);
+border: 1px solid black;
+border-radius: 10px;
+cursor: pointer;
+padding-left:20px ;
+box-shadow: 0px 12px rgb(121, 235, 69), -1em 0 .8em rgb(255, 255, 159);
+}
+#Picture{
+    padding-top:80px ;
+}
+
+.profile-picture {
+    display: block;
+    margin: auto;
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid black;
+
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: #0e421e;
+    color: white;
+    border:2px solid brown;
+    border-radius: 20px;
+}
+button:hover {
+    background-color: #186930;
+    border: 2px solid yellow;
+    
+}
+
